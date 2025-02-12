@@ -67,25 +67,25 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ || Creator = 𖥘⚡ CRISS VEVO ⚡𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+❷ || https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/263780166288
+❸ || Owner = https://wa.me/message/NY5RNQQH2DYTN1
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/criss-vevo/Criss_Vevo-MD
+❺ || Bot Repo = https://github.com/criss-vevo/CRISS-VMD
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || YouTube = https://www.youtube.com/@MalvinKing_TECH 
+❻ || YouTube = https://youtube.com/@criss_vevo?si=S8WAlQgx37kI0iK_ 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©2024-2099 ᴍᴀʟᴠɪɴ-ᴋɪɴɢ_`
-	 await Qr_Code_By_Malvin_King.sendMessage(Qr_Code_By_Malvin_King.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
+©2025-2099 CRISS VEVO_`
+	 await Qr_Code_By_Criss_Vevo.sendMessage(Qr_Code_By_Criss_Vevo.user.id,{text:CRISS_VEVO_TEXT},{quoted:session})
 
 
 
 					await delay(100);
-					await Qr_Code_By_Malvin_King.ws.close();
+					await Qr_Code_By_Criss_Vevo.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					MALVIN_KING_QR_CODE();
+					CRISS_VEVO_QR_CODE();
 				}
 			});
 		} catch (err) {
@@ -98,6 +98,6 @@ router.get('/', async (req, res) => {
 			await removeFile("temp/" + id);
 		}
 	}
-	return await MALVIN_KING_QR_CODE()
+	return await CRISS_VEVO_QR_CODE()
 });
 module.exports = router
