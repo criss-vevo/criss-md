@@ -1,4 +1,4 @@
-# Malvin-Session-Generator
+# 𝘾𝙍𝙄𝙎𝙎 𝙑𝙀𝙑𝙊-Session-Generator
 - Kindly star my repo
 - Fork and edit as you wish
 - Deploy to your favourite hosting server eg Heroku or Render or self hosting
