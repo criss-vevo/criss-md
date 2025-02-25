@@ -59,23 +59,25 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Criss_Vevo.sendMessage(Qr_Code_By_Criss_Vevo.user.id, { text: '' + b64data });
 	
 				   let CRISS_VEVO_TEXT = `
-┏━━━━━━━━━━━━━━
-┃CRISS VEVO SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘⚡ CRISS VEVO ⚡𖥘
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/message/NY5RNQQH2DYTN1
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/criss-vevo/CRISS-VMD
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || YouTube = https://youtube.com/@criss_vevo?si=S8WAlQgx37kI0iK_ 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©2025-2099 CRISS VEVO_`
+
+╔═══════════════════
+ 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 
+ ✅ 𝐘𝐨𝐮𝐫 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐈𝐝 𝐈𝐬 𝐑𝐞𝐚𝐝𝐲
+╚═══════════════════
+
+╔═══════════════════
+𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊 𝐇𝐄𝐑𝐄
+https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
+╚═══════════════════
+
+╔═══════════════════
+☉︎𝐖𝐏-𝐌𝐄-𝐎𝐖𝐍𝐄𝐑®️
+https://wa.me/message/NY5RNQQH2DYTN1
+╚═══════════════════
+
+╔═══════════════════
+ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐂𝐡𝐨𝐨𝐬𝐢𝐧𝐠 𝐂𝐫𝐢𝐬𝐬 𝐌𝐝
+╚═══════════════════`
 	 await Qr_Code_By_Criss_Vevo.sendMessage(Qr_Code_By_Criss_Vevo.user.id,{text:CRISS_VEVO_TEXT},{quoted:session})
 
 
