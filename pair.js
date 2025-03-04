@@ -56,23 +56,19 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Criss_Vevo.sendMessage(Pair_Code_By_Criss_Vevo.user.id, { text: '' + b64data });
 
                let CRISS_VEVO_TEXT = `
-┏━━━━━━━━━━━━━━
-┃ᴍᴀʟᴠCRISS VEVO SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘⚡ CRISS VEVO ⚡𖥘
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/message/NY5RNQQH2DYTN1
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/criss-vevo/CRISS-VMD
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || YouTube = https://youtube.com/@criss_vevo?si=S8WAlQgx37kI0iK_ 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©2024-2099 ᴍᴀʟᴠɪɴ-ᴋɪɴɢ_`
+╭───────────────━⊷
+┊𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃
+╰───────────────━⊷
+╭───────────────━⊷
+║🔗 𝗚𝗜𝗧𝗛𝗨𝗕 𝗟𝗜𝗡𝗞
+║> https://github.com/criss-vevo/CRISS-VMD
+║
+║🔗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
+║> https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
+⁠⁠⁠⁠╰───────────────━⊷
+   𝗙𝗢𝗟𝗟𝗢𝗪 𝗠𝗬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
+  
+> 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢`
  await Pair_Code_By_Criss_Vevo.sendMessage(Pair_Code_By_Criss_Vevo.user.id,{text:CRISS_VEVO_TEXT},{quoted:session})
  
 
