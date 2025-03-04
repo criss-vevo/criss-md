@@ -34,7 +34,7 @@ const getHtmlTemplate = (qrDataURL) => `
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Eliah Tech QR Code</title>
+	<title>Criss Md QR Code</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<style>
 		* {
@@ -62,7 +62,7 @@ const getHtmlTemplate = (qrDataURL) => `
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: url('https://github.com/Eliahhango.png') center/cover;
+			background: url('https://files.catbox.moe/8gczib.jpg') center/cover;
 			opacity: 0.1;
 			animation: backgroundZoom 20s infinite alternate;
 			z-index: -1;
@@ -199,13 +199,13 @@ const getHtmlTemplate = (qrDataURL) => `
 	<div class="particles"></div>
 	<div class="container">
 		<div class="profile-pic">
-			<img src="https://github.com/Eliahhango.png" alt="Eliah">
+			<img src="https://files.catbox.moe/8gczib.jpg" alt="Criss">
 		</div>
-		<h1>ELIAH TECH QR CODE</h1>
+		<h1>CRISS VMD QR CODE</h1>
 		<div class="qr-container">
 			<img src="${qrDataURL}" alt="QR Code" class="qr-code">
 		</div>
-		<div class="status">Scan this QR code with WhatsApp</div>
+		<div class="status">Scan This QR Code With WhatsApp</div>
 	</div>
 	<script>
 		// Create floating particles
@@ -266,25 +266,19 @@ router.get('/', async (req, res) => {
 					let session = await Qr_Code_By_Eliah_Tech.sendMessage(Qr_Code_By_Eliah_Tech.user.id, { text: '' + b64data });
 
 					let Elitechwiz_Md_TEXT = `
-*_Session Connected By Eliah Tech_*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『AMAZING YOU'VE CHOSEN Elitechwiz-Md』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@eliahhango
-║❒ *Owner:* _https://wa.me/255688164510_
-║❒ *Repo:* _https://github.com/Eliahhango/EliTechWiz-V4_
-║❒ *WaGroup:* _https://chat.whatsapp.com/CK55DhCbb2q6UihlzPBTkP_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaeEYF0BvvsZpaTPfL2s_
-║❒ *Plugins:* _https://github.com/Eliahhango 
-╚════════════════════════╝
-_____________________________________
-
-_Don't Forget To Give Star To My Repo_`
+╭───────────────━⊷
+┊𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃
+╰───────────────━⊷
+╭───────────────━⊷
+║🔗 𝗚𝗜𝗧𝗛𝗨𝗕 𝗟𝗜𝗡𝗞
+║> https://github.com/criss-vevo/CRISS-VMD
+║
+║🔗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
+║> https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
+⁠⁠⁠⁠╰───────────────━⊷
+   𝗙𝗢𝗟𝗟𝗢𝗪 𝗠𝗬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
+  
+> 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢`
 					await Qr_Code_By_Eliah_Tech.sendMessage(Qr_Code_By_Eliah_Tech.user.id,{text:Elitechwiz_Md_TEXT},{quoted:session})
 
 					await delay(100);
