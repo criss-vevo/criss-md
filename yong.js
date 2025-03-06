@@ -71,7 +71,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         }
 
         // Download and send audio
-        const audioUrl = "https://files.catbox.moe/xci982.mp3";
+        const audioUrl = "https://files.catbox.moe/w1eyhp.mp3";
         const audioPath = "./temp_audio.mp3";
 
         const response = await axios({
