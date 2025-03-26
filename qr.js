@@ -201,7 +201,7 @@ const getHtmlTemplate = (qrDataURL) => `
 		<div class="profile-pic">
 			<img src="https://files.catbox.moe/8gczib.jpg" alt="Criss">
 		</div>
-		<h1>CRISS VMD QR CODE</h1>
+		<h1>CRISS MD QR CODE</h1>
 		<div class="qr-container">
 			<img src="${qrDataURL}" alt="QR Code" class="qr-code">
 		</div>
